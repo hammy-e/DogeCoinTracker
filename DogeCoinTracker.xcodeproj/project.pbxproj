@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33AA52E6264B96A000A65094 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AA52E5264B96A000A65094 /* AppDelegate.swift */; };
+		33AA52E8264B96A000A65094 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AA52E7264B96A000A65094 /* SceneDelegate.swift */; };
+		33AA52EA264B96A000A65094 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AA52E9264B96A000A65094 /* ViewController.swift */; };
+		33AA52ED264B96A000A65094 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AA52EB264B96A000A65094 /* Main.storyboard */; };
+		33AA52EF264B96A000A65094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AA52EE264B96A000A65094 /* Assets.xcassets */; };
+		33AA52F2264B96A000A65094 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AA52F0264B96A000A65094 /* LaunchScreen.storyboard */; };
+		33AA52FD264B972700A65094 /* DogeCoinTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AA52FC264B972700A65094 /* DogeCoinTrackerViewController.swift */; };
+		33AA5300264B98F700A65094 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AA52FF264B98F700A65094 /* Extensions.swift */; };
+		33AA5303264B9C0000A65094 /* DogeCoinPriceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AA5302264B9C0000A65094 /* DogeCoinPriceService.swift */; };
+		33AA5305264B9D6000A65094 /* DogeCoinPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AA5304264B9D6000A65094 /* DogeCoinPrice.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33AA52E2264B96A000A65094 /* DogeCoinTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogeCoinTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33AA52E5264B96A000A65094 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33AA52E7264B96A000A65094 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		33AA52E9264B96A000A65094 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33AA52EC264B96A000A65094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33AA52EE264B96A000A65094 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33AA52F1264B96A000A65094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33AA52F3264B96A000A65094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33AA52FC264B972700A65094 /* DogeCoinTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogeCoinTrackerViewController.swift; sourceTree = "<group>"; };
+		33AA52FF264B98F700A65094 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		33AA5302264B9C0000A65094 /* DogeCoinPriceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogeCoinPriceService.swift; sourceTree = "<group>"; };
+		33AA5304264B9D6000A65094 /* DogeCoinPrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogeCoinPrice.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33AA52DF264B96A000A65094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33AA52D9264B96A000A65094 = {
+			isa = PBXGroup;
+			children = (
+				33AA52E4264B96A000A65094 /* DogeCoinTracker */,
+				33AA52E3264B96A000A65094 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33AA52E3264B96A000A65094 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33AA52E2264B96A000A65094 /* DogeCoinTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33AA52E4264B96A000A65094 /* DogeCoinTracker */ = {
+			isa = PBXGroup;
+			children = (
+				33AA52FB264B970A00A65094 /* Model */,
+				33AA52FA264B970500A65094 /* View */,
+				33AA52F9264B96F700A65094 /* Controller */,
+				33AA5301264B9BEE00A65094 /* API */,
+				33AA52FE264B98E800A65094 /* Utils */,
+				33AA52E5264B96A000A65094 /* AppDelegate.swift */,
+				33AA52E7264B96A000A65094 /* SceneDelegate.swift */,
+				33AA52E9264B96A000A65094 /* ViewController.swift */,
+				33AA52EB264B96A000A65094 /* Main.storyboard */,
+				33AA52EE264B96A000A65094 /* Assets.xcassets */,
+				33AA52F0264B96A000A65094 /* LaunchScreen.storyboard */,
+				33AA52F3264B96A000A65094 /* Info.plist */,
+			);
+			path = DogeCoinTracker;
+			sourceTree = "<group>";
+		};
+		33AA52F9264B96F700A65094 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				33AA52FC264B972700A65094 /* DogeCoinTrackerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		33AA52FA264B970500A65094 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33AA52FB264B970A00A65094 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33AA5304264B9D6000A65094 /* DogeCoinPrice.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33AA52FE264B98E800A65094 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				33AA52FF264B98F700A65094 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		33AA5301264B9BEE00A65094 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				33AA5302264B9C0000A65094 /* DogeCoinPriceService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33AA52E1264B96A000A65094 /* DogeCoinTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33AA52F6264B96A000A65094 /* Build configuration list for PBXNativeTarget "DogeCoinTracker" */;
+			buildPhases = (
+				33AA52DE264B96A000A65094 /* Sources */,
+				33AA52DF264B96A000A65094 /* Frameworks */,
+				33AA52E0264B96A000A65094 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DogeCoinTracker;
+			productName = DogeCoinTracker;
+			productReference = 33AA52E2264B96A000A65094 /* DogeCoinTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33AA52DA264B96A000A65094 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					33AA52E1264B96A000A65094 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 33AA52DD264B96A000A65094 /* Build configuration list for PBXProject "DogeCoinTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33AA52D9264B96A000A65094;
+			productRefGroup = 33AA52E3264B96A000A65094 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33AA52E1264B96A000A65094 /* DogeCoinTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33AA52E0264B96A000A65094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33AA52F2264B96A000A65094 /* LaunchScreen.storyboard in Resources */,
+				33AA52EF264B96A000A65094 /* Assets.xcassets in Resources */,
+				33AA52ED264B96A000A65094 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33AA52DE264B96A000A65094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33AA5300264B98F700A65094 /* Extensions.swift in Sources */,
+				33AA52EA264B96A000A65094 /* ViewController.swift in Sources */,
+				33AA5305264B9D6000A65094 /* DogeCoinPrice.swift in Sources */,
+				33AA52FD264B972700A65094 /* DogeCoinTrackerViewController.swift in Sources */,
+				33AA5303264B9C0000A65094 /* DogeCoinPriceService.swift in Sources */,
+				33AA52E6264B96A000A65094 /* AppDelegate.swift in Sources */,
+				33AA52E8264B96A000A65094 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33AA52EB264B96A000A65094 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33AA52EC264B96A000A65094 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33AA52F0264B96A000A65094 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33AA52F1264B96A000A65094 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33AA52F4264B96A000A65094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33AA52F5264B96A000A65094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33AA52F7264B96A000A65094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25SF3B4Q42;
+				INFOPLIST_FILE = DogeCoinTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hammy1290.DogeCoinTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33AA52F8264B96A000A65094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25SF3B4Q42;
+				INFOPLIST_FILE = DogeCoinTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hammy1290.DogeCoinTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33AA52DD264B96A000A65094 /* Build configuration list for PBXProject "DogeCoinTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33AA52F4264B96A000A65094 /* Debug */,
+				33AA52F5264B96A000A65094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33AA52F6264B96A000A65094 /* Build configuration list for PBXNativeTarget "DogeCoinTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33AA52F7264B96A000A65094 /* Debug */,
+				33AA52F8264B96A000A65094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33AA52DA264B96A000A65094 /* Project object */;
+}
